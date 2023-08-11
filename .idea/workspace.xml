@@ -6,6 +6,49 @@
   <component name="ChangeListManager">
     <list default="true" id="d28c565d-c8ee-4aec-b61b-117557f4e1f0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/ParkingLotApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/ParkingLotApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/controllers/TicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/controllers/TicketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/dtos/GenerateTicketRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/dtos/GenerateTicketRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/dtos/TicketResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/dtos/TicketResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/exceptions/GateNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/exceptions/GateNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/exceptions/ParkingSpotNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/exceptions/ParkingSpotNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/exceptions/UnauthorizedEntryGateException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/exceptions/UnauthorizedEntryGateException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/models/billing/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/billing/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/models/billing/DurationBasedPriceRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/billing/DurationBasedPriceRate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/models/billing/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/billing/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/models/billing/PaymentMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/billing/PaymentMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/models/billing/PaymentStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/billing/PaymentStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/models/parking/ElectricCharger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/parking/ElectricCharger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/models/parking/Gate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/parking/Gate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/models/parking/GateStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/parking/GateStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/models/parking/GateType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/parking/GateType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/models/parking/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/parking/Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/models/parking/ParkingCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/parking/ParkingCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/models/parking/ParkingFloor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/parking/ParkingFloor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/models/parking/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/parking/ParkingLot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/models/parking/ParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/parking/ParkingSpot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/models/parking/ParkingSpotStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/parking/ParkingSpotStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/models/parking/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/parking/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/models/parking/TicketStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/parking/TicketStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/models/vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/vehicle/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/models/vehicle/VehicleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/vehicle/VehicleType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/models/vehicle/VehicleTypeBasePrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/vehicle/VehicleTypeBasePrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/repositories/GateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/repositories/GateRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/repositories/ParkingLotRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/repositories/ParkingLotRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/repositories/ParkingSpotRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/repositories/ParkingSpotRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/repositories/TicketRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/repositories/TicketRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/repositories/VehicleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/repositories/VehicleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/services/GateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/services/GateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/services/ParkingLotService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/services/ParkingLotService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/services/ParkingSpotService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/services/ParkingSpotService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/services/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/services/TicketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/services/VehicleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/services/VehicleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/strategies/spotassignment/FloorSpotAssignmentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/strategies/spotassignment/FloorSpotAssignmentStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/strategies/spotassignment/NearExitSpotAssignmentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/strategies/spotassignment/NearExitSpotAssignmentStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/strategies/spotassignment/NearMallSpotAssignmentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/strategies/spotassignment/NearMallSpotAssignmentStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/strategies/spotassignment/ParkingSpotAssignmentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/strategies/spotassignment/ParkingSpotAssignmentStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/strategies/spotassignment/RandomSpotAssignmentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/strategies/spotassignment/RandomSpotAssignmentStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/strategies/spotassignment/UserParkingPreference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/strategies/spotassignment/UserParkingPreference.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,25 +89,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/Scaler/Pdf/zDeepak's Project/bookmyshow-may23",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Scaler/Pdf/zDeepak's Project/bookmyshow-may23&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.vip.repositories" />
@@ -75,11 +118,11 @@
   </component>
   <component name="RunManager">
     <configuration name="ParkingLotApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.vip.ParkingLotApp" />
+      <option name="MAIN_CLASS_NAME" value="org.vip.parkinglot.ParkingLotApp" />
       <module name="parking-lot" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.vip.*" />
+          <option name="PATTERN" value="org.vip.parkinglot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,6 +150,8 @@
       <workItem from="1691591824339" duration="12609000" />
       <workItem from="1691688506879" duration="8773000" />
       <workItem from="1691769749973" duration="4862000" />
+      <workItem from="1691782013602" duration="245000" />
+      <workItem from="1691782807989" duration="415000" />
     </task>
     <servers />
   </component>
@@ -117,7 +162,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/vip/controllers/TicketController.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/vip/parkinglot/controllers/TicketController.java</url>
           <line>20</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
