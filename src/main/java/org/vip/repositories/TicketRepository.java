@@ -1,6 +1,6 @@
 package org.vip.repositories;
 
-import org.vip.models.billing.Ticket;
+import org.vip.models.parking.Ticket;
 
 import java.util.HashMap;
 import java.util.Map;

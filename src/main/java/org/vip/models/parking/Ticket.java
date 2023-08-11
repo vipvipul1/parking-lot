@@ -1,8 +1,6 @@
-package org.vip.models.billing;
+package org.vip.models.parking;
 
 import org.vip.models.vehicle.Vehicle;
-import org.vip.models.parking.Gate;
-import org.vip.models.parking.ParkingSpot;
 
 import java.time.LocalDateTime;
 

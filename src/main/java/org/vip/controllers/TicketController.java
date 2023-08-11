@@ -5,7 +5,7 @@ import org.vip.dtos.TicketResponseDto;
 import org.vip.exceptions.GateNotFoundException;
 import org.vip.exceptions.ParkingSpotNotFoundException;
 import org.vip.exceptions.UnauthorizedEntryGateException;
-import org.vip.models.billing.TicketStatus;
+import org.vip.models.parking.TicketStatus;
 import org.vip.services.TicketService;
 
 public class TicketController {

@@ -1,4 +1,4 @@
-package org.vip.models.billing;
+package org.vip.models.parking;
 
 public enum TicketStatus {
     CONFIRMED("Confirmed"),
