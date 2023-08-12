@@ -5,19 +5,19 @@ import org.vip.parkinglot.models.vehicle.VehicleType;
 import java.util.List;
 
 public class ParkingSpot {
-    private Integer parkingSpot;
+    private Integer parkingSpotId;
     private String spotNumber;
     private List<VehicleType> vehicleTypes;
     private ParkingFloor parkingFloor;
     private ParkingSpotStatus parkingSpotStatus;
     private ParkingCategory parkingCategory;
 
-    public Integer getParkingSpot() {
-        return parkingSpot;
+    public Integer getParkingSpotId() {
+        return parkingSpotId;
     }
 
-    public void setParkingSpot(Integer parkingSpot) {
-        this.parkingSpot = parkingSpot;
+    public void setParkingSpotId(Integer parkingSpotId) {
+        this.parkingSpotId = parkingSpotId;
     }
 
     public String getSpotNumber() {

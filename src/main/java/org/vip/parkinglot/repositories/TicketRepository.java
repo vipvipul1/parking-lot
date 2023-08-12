@@ -1,6 +1,7 @@
 package org.vip.parkinglot.repositories;
 
 import org.vip.parkinglot.models.parking.Ticket;
+import org.vip.parkinglot.strategies.spotassignment.UserParkingPreference;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,5 +13,9 @@ public class TicketRepository {
     public void saveTicket(Ticket ticket) {
         ticket.setTicketId(UUID.randomUUID().hashCode());
         ticketMap.put(ticket.getTicketNumber(), ticket);
+    }
+
+    public void saveUserParkingPreference(UserParkingPreference userParkingPreference) {
+//         save userParkingPreference to db.
     }
 }

@@ -37,10 +37,11 @@ public class TicketService {
         Ticket ticket = null;
         Gate entryGate = gateService.getGateByGateNumber(ticketRequestDto.getGateNumber());
         if (entryGate != null && entryGate.getGateStatus() == GateStatus.OPEN) {
-            if (ticketRequestDto.getUserParkingPreference() == null)
-                ticketRequestDto.setUserParkingPreference(new UserParkingPreference());
-            ticketRequestDto.getUserParkingPreference().setEntryGate(entryGate);
-            ticketRequestDto.getUserParkingPreference().setVehicleType(ticketRequestDto.getVehicleType());
+            UserParkingPreference userParkingPreference = ticketRequestDto.getUserParkingPreference();
+            if (userParkingPreference == null)
+                userParkingPreference = new UserParkingPreference();
+            userParkingPreference.setEntryGate(entryGate);
+            userParkingPreference.setVehicleType(ticketRequestDto.getVehicleType());
 
             ParkingSpot parkingSpot = parkingSpotAssignmentStrategy.assignParkingSpot(ticketRequestDto.getUserParkingPreference());
             if (parkingSpot != null) {
@@ -56,6 +57,13 @@ public class TicketService {
                 ticket.setEntryDateTime(LocalDateTime.now());
                 ticket.setTicketStatus(TicketStatus.CONFIRMED);
                 saveTicket(ticket);
+
+                // save userParkingPreference to db so that if any dynamic fee is to be applied
+                // based on parkingPreference then we can fetch from db.
+                if (ticketRequestDto.getUserParkingPreference() != null) {
+                    userParkingPreference.setTicket(ticket);
+                    saveUserParkingPreference(userParkingPreference);
+                }
             } else {
                 System.out.println("Error in TicketService :: generateTicket() :: Parking Spot Not Found!");
                 throw new ParkingSpotNotFoundException("No Parking Spot found for the Vehicle Type!");
@@ -72,6 +80,10 @@ public class TicketService {
 
     public void saveTicket(Ticket ticket) {
         ticketRepository.saveTicket(ticket);
+    }
+
+    public void saveUserParkingPreference(UserParkingPreference userParkingPreference) {
+        ticketRepository.saveUserParkingPreference(userParkingPreference);
     }
 
     private TicketResponseDto getTicketResponseDtoFromTicket(Ticket ticket) {

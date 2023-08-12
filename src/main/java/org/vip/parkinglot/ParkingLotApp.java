@@ -24,10 +24,11 @@ public class ParkingLotApp {
         UserParkingPreference userParkingPreference = new UserParkingPreference();
         ticketRequestDto.setUserParkingPreference(userParkingPreference);
 
-        // TODO: Create FeeCalculationStrategy objects based on Purchase, Festival, TimeBasedDynamicFare, FlatFare.
 
         TicketResponseDto ticket = ticketController.generateTicket(ticketRequestDto);
         System.out.println(ticket);
+
+        // Fee Calculation using various FeeCalculationStrategies to be done at Billing during Checkout.
     }
 
     private static TicketController initializeTicketControllerDependencies() {
