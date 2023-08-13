@@ -2,18 +2,18 @@ package org.vip.parkinglot.models.parking;
 
 import java.time.LocalDateTime;
 
-public class ElectricCharger {
-    private Integer electricChargerId;
+public class EVCharger {
+    private Integer evChargerId;
     private LocalDateTime startTime;
     private LocalDateTime endTime;
     private Integer ratePerHour;
 
-    public Integer getElectricChargerId() {
-        return electricChargerId;
+    public Integer getEvChargerId() {
+        return evChargerId;
     }
 
-    public void setElectricChargerId(Integer electricChargerId) {
-        this.electricChargerId = electricChargerId;
+    public void setEvChargerId(Integer evChargerId) {
+        this.evChargerId = evChargerId;
     }
 
     public LocalDateTime getStartTime() {

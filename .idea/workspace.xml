@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d28c565d-c8ee-4aec-b61b-117557f4e1f0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/ParkingLotApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/ParkingLotApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/parking/ElectricCharger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/parking/ElectricCharger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/parking/ElectricCharger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/parking/EVCharger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/parking/ParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/parking/ParkingSpot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/repositories/TicketRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/repositories/TicketRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/services/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/services/TicketService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/strategies/spotassignment/UserParkingPreference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/strategies/spotassignment/UserParkingPreference.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +111,8 @@
       <workItem from="1691769749973" duration="4862000" />
       <workItem from="1691782013602" duration="245000" />
       <workItem from="1691782807989" duration="986000" />
-      <workItem from="1691824425777" duration="4881000" />
+      <workItem from="1691824425777" duration="4961000" />
+      <workItem from="1691864001063" duration="8703000" />
     </task>
     <servers />
   </component>

@@ -4,6 +4,11 @@ import org.vip.parkinglot.models.vehicle.VehicleType;
 
 import java.util.List;
 
+// There will be some ParkingSpots which will have EVCharger. But we aren't storing EVCharger inside ParkingSpot
+// because % of ParkingSpots with EVCharger out of total ParkingSpots will be very less and due to this there will
+// be a lot of null values of evChargerId in ParkingSpot table. These huge null values are called sparse data.
+// To get rid of this sparse data for evChargerId in ParkingSpot table, we can use a new mapping table
+// ParkingSpotEVChargerMapping with parkingSpotId, evChargerId.
 public class ParkingSpot {
     private Integer parkingSpotId;
     private String spotNumber;
