@@ -1,6 +1,6 @@
 package org.vip.parkinglot.services;
 
-import org.vip.parkinglot.dtos.GenerateTicketRequestDto;
+import org.vip.parkinglot.dtos.TicketRequestDto;
 import org.vip.parkinglot.dtos.TicketResponseDto;
 import org.vip.parkinglot.exceptions.GateNotFoundException;
 import org.vip.parkinglot.exceptions.ParkingSpotNotFoundException;
@@ -32,7 +32,7 @@ public class TicketService {
         this.parkingSpotAssignmentStrategy = parkingSpotAssignmentStrategy;
     }
 
-    public TicketResponseDto generateTicket(GenerateTicketRequestDto ticketRequestDto)
+    public TicketResponseDto generateTicket(TicketRequestDto ticketRequestDto)
             throws ParkingSpotNotFoundException, UnauthorizedEntryGateException, GateNotFoundException {
         Ticket ticket = null;
         Gate entryGate = gateService.getGateByGateNumber(ticketRequestDto.getGateNumber());

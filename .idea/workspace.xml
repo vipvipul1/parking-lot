@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d28c565d-c8ee-4aec-b61b-117557f4e1f0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/parking/ElectricCharger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/parking/EVCharger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/parking/ParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/models/parking/ParkingSpot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/ParkingLotApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/ParkingLotApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/controllers/TicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/controllers/TicketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/dtos/GenerateTicketRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/dtos/TicketRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/services/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vip/parkinglot/services/TicketService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +59,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Scaler/Assignments/Backend LLD/Self Practice/Machine Coding/book-my-show&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Scaler/Pdf/zDeepak's Project/splitwise-may23&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -112,7 +114,12 @@
       <workItem from="1691782013602" duration="245000" />
       <workItem from="1691782807989" duration="986000" />
       <workItem from="1691824425777" duration="4961000" />
-      <workItem from="1691864001063" duration="8703000" />
+      <workItem from="1691864001063" duration="8762000" />
+      <workItem from="1692118150627" duration="528000" />
+      <workItem from="1692724165245" duration="660000" />
+      <workItem from="1693931707358" duration="1605000" />
+      <workItem from="1698070531381" duration="1564000" />
+      <workItem from="1698472751363" duration="1449000" />
     </task>
     <servers />
   </component>

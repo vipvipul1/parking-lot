@@ -1,7 +1,7 @@
 package org.vip.parkinglot;
 
 import org.vip.parkinglot.controllers.TicketController;
-import org.vip.parkinglot.dtos.GenerateTicketRequestDto;
+import org.vip.parkinglot.dtos.TicketRequestDto;
 import org.vip.parkinglot.dtos.TicketResponseDto;
 import org.vip.parkinglot.models.vehicle.VehicleType;
 import org.vip.parkinglot.repositories.*;
@@ -14,7 +14,7 @@ public class ParkingLotApp {
     public static void main(String[] args) {
         TicketController ticketController = initializeTicketControllerDependencies();
 
-        GenerateTicketRequestDto ticketRequestDto = new GenerateTicketRequestDto();
+        TicketRequestDto ticketRequestDto = new TicketRequestDto();
         ticketRequestDto.setGateNumber(2);
         ticketRequestDto.setVehicleNumber("KA 23H 4433");
         ticketRequestDto.setVehicleType(VehicleType.SEDAN);

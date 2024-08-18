@@ -1,6 +1,6 @@
 package org.vip.parkinglot.controllers;
 
-import org.vip.parkinglot.dtos.GenerateTicketRequestDto;
+import org.vip.parkinglot.dtos.TicketRequestDto;
 import org.vip.parkinglot.dtos.TicketResponseDto;
 import org.vip.parkinglot.exceptions.GateNotFoundException;
 import org.vip.parkinglot.exceptions.ParkingSpotNotFoundException;
@@ -15,10 +15,10 @@ public class TicketController {
         this.ticketService = ticketService;
     }
 
-    public TicketResponseDto generateTicket(GenerateTicketRequestDto generateTicketRequestDto) {
+    public TicketResponseDto generateTicket(TicketRequestDto ticketRequestDto) {
         TicketResponseDto ticketResponseDto = null;
         try {
-            ticketResponseDto = ticketService.generateTicket(generateTicketRequestDto);
+            ticketResponseDto = ticketService.generateTicket(ticketRequestDto);
         } catch (ParkingSpotNotFoundException | GateNotFoundException e) {
             System.out.print(e.getMessage());
             ticketResponseDto = new TicketResponseDto();
